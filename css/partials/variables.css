@@ -1,0 +1,9 @@
+@import url(/css/fonts.css);
+
+
+:root{
+    --background-color: #d6d5c2;
+    --primary-color: #0c5a6b;
+
+    --caslon: "caslon", normal;
+}
