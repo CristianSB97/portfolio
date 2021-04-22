@@ -24,6 +24,7 @@
 .header-area .navbar .navbar-nav > li .nav-link{
     text-decoration: none;
     color: var(--primary-color);
+    font: normal 100 18px/0 var(--merriweather);
 }
 
 /* End Header Area Styles*/
