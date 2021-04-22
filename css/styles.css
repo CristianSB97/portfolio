@@ -2,11 +2,33 @@
 
 @import url(/css/partials/globals.css);
 
-/* Nav styles*/
+/* Header Area Styles*/
 
-/* End Nav styles*/
 
-/* Header Area Styles */
+.header-area{
+    width: 100%;
+}
+
+
+
+.header-area .navbar{
+    width: 50%;
+    float: right;
+    display: flex;
+}
+
+.header-area .navbar .navbar-nav > li{
+    list-style: none;
+}
+
+.header-area .navbar .navbar-nav > li .nav-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* End Header Area Styles*/
+
+
 
 
 

@@ -1,9 +1,13 @@
 @import url(/css/fonts.css);
 
 
+
 :root{
-    --background-color: #d6d5c2;
-    --primary-color: #0c5a6b;
+    --header-color: #d6d3ca;
+    --background-color: #fbfaf1;
+    --primary-color: #12465b;
+    --secondary-color: #d8574a;
+    /*  ->>>> Hey! Haz un grandient color con el secondary, oki? Para btn*/
 
     --caslon: "caslon", normal;
 }
