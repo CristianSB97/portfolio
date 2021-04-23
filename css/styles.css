@@ -96,16 +96,34 @@
 
 .main-site .about-area .flex-container .about-me{
     width: 50%;
+    
 }
 
 .main-site .about-area .flex-container .about-me h1, p{
     padding-left: .5rem;
+    
 }
 
 
 /* End About Me Area */
 
 /* Services Area */
+.main-site .services-area{
+    margin-left: 6rem; margin-right: 6rem;
+}
+
+
+.main-site .services-area .services-list{
+    display: flex;
+}
+
+.main-site .services-area .services-list .services-card{
+    padding: 1rem;
+}
+
+.main-site .services-area .services-list .services-card > h5{
+    text-align: center;
+}
 
 
 
