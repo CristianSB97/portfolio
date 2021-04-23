@@ -2,11 +2,14 @@
 
 @import url(/css/partials/globals.css);
 
+@import url(/css/fonts.css);
+
 /* Header Area Styles*/
 
 
 .header-area{
     width: 100%;
+    
 }
 
 
@@ -24,11 +27,83 @@
 .header-area .navbar .navbar-nav > li .nav-link{
     text-decoration: none;
     color: var(--primary-color);
-    font: normal 100 18px/0 var(--merriweather);
+    font: normal 100 18px/0 var(--montserrat);
 }
 
 /* End Header Area Styles*/
 
+/* Start Banner Area */
+
+.main-site{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-site .banner-area{
+    background: url(/img/banner/willian-justen-de-vasconcellos-_MMP5j_fCqw-unsplash.jpg);
+    background-size: cover;
+    padding-bottom: 3.3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.main-site .banner-area .banner-titles{   
+    width: 100%;
+    
+    padding-top: 10rem;
+}
+
+.main-site .banner-area .banner-titles h4{
+    text-align: center;
+    font: normal 100 1rem/30px var(--montserrat);
+    color: #ffffff;
+}
+
+.main-site .banner-area .banner-titles h3{
+    text-align: center;
+    font: normal 700 5rem/30px var(--montserrat);
+    color: var(--primary-color);
+}
+
+
+/* End Banner Area */
+
+/* About Me Area */
+
+.main-site .about-area{
+    padding-top: 4rem;
+    margin-left: 6rem; margin-right: 6rem;
+    padding-bottom: 7.5rem;
+}
+
+.main-site .about-area .flex-container{
+    padding-top: 8rem;
+    display: flex;
+    align-content: center;
+}
+
+.main-site .about-area .flex-container .about-img{
+    width: 50%;
+}
+
+.main-site .about-area .flex-container .about-img img{
+    width: 90%;
+}
+
+.main-site .about-area .flex-container .about-me{
+    width: 50%;
+}
+
+.main-site .about-area .flex-container .about-me h1, p{
+    padding-left: .5rem;
+}
+
+
+/* End About Me Area */
 
 
 
