@@ -15,7 +15,7 @@ html, body {
     --background-color: #fbfaf1;
     --primary-color: #12465b;
     --secondary-color: #d8574a;
-    /*  ->>>> Hey! Haz un grandient color con el secondary, oki? Para btn*/
+    --gradient-color: linear-gradient(127deg, rgba(216,87,74,1) 0%, rgba(216,124,74,1) 100%);
     --roboto-slab: 'Roboto Slab', serif;
     --montserrat: 'Montserrat', sans-serif;
 }
