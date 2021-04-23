@@ -5,6 +5,13 @@ a{
 .title-text{
     font: normal 400 2.8rem/.8rem var(--montserrat);
     color: var(--primary-color);
+    text-align: center;
+}
+
+.about-title{
+    font: normal bold 2.8rem/.8rem var(--montserrat);
+    color: var(--primary-color);
+    letter-spacing: 1rem;
 }
 
 p.para{
