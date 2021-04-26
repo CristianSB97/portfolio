@@ -129,8 +129,31 @@
 
 /* End Services Area */
 
+/* Project Area */
 
+.main-site .project-area{
+    margin-left: 6rem; margin-right: 6rem;
+}
 
+.main-site .project-area .button-group > button{
+    background: transparent;
+    border: none;
+    font: normal 500 .9rem/139px var(--montserrat);
+    text-transform: uppercase;
+}
 
+.main-site .project-area .flex-container{
+    display: flex;
+    
+}
+
+.main-site .project-area .flex-container > div{
+    padding: .5rem;
+}
+
+.main-site .project-area .flex-container .our-project img{
+    width: 50%;
+}
+/* End Proyect Area */
 
 
