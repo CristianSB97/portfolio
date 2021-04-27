@@ -27,42 +27,45 @@
 <body>
     <!-- Header Area -->
         <header class="header-area">
-            <nav class="navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sobre mí</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Servicios</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Proyectos</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+           
         </header>
+
+
+        <nav class="navbar clearfix">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Inicio</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sobre mí</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Servicios</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Proyectos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     <!-- End Header Area -->
     
-    <main class="main-site">
+    <main class="main-site clearfix">
 
         <!-- Banner Area -->
 
-        <section class="banner-area">
-            <div class="banner-titles">
+        <section class="banner-area row small-12 medium-6 large-3">
+            <div class="banner-titles column">
                 
                <h3 class="text-uppercase">Cristian Sánchez</h3>
                <h4>corrector | lector editorial | desarrollador frontend</h4>
@@ -72,29 +75,29 @@
         <!-- End Banner Area -->
 
         <!-- About Me Area -->
-        <section class="about-area">
-            <div class="flex-container">
-                <div class="about-img">
-                    <img src="/img/about-me/undraw_Choice_re_2hkp.svg" alt="">
-                </div>
-                <div class="about-me">
-                    <h1 class="about-title text-uppercase">Conóceme</h1>
-                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, doloremque cupiditate! Itaque saepe accusamus voluptatibus, amet cumque deserunt officia autem!</p>
-                    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis odio excepturi saepe accusamus magnam, fuga iure reiciendis at cum!</p>
-                    <button class="btn text-uppercase">Descargar CV</button>
-                </div>
+        <section class="about-area row small-12 medium-6 large-3">
+            
+            <div class="about-img column">
+                <img src="/img/about-me/undraw_Choice_re_2hkp.svg" alt="">
             </div>
+            <div class="about-me column">
+                <h1 class="about-title text-uppercase">Conóceme</h1>
+                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, doloremque cupiditate! Itaque saepe accusamus voluptatibus, amet cumque deserunt officia autem!</p>
+                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis odio excepturi saepe accusamus magnam, fuga iure reiciendis at cum!</p>
+                <button class="btn text-uppercase">Descargar CV</button>
+            </div>
+            
         </section>
 
         <!-- End About Me Area -->
 
         <!-- Services Area -->
-        <section class="services-area">
-            <div class="container">
+        <section class="services-area row small-12 medium-6 large-3">
+            <div class="container column">
                 <h1 class="title-text text-uppercase">Servicios que ofrezco</h1>
                 <p class="para">Aquí verás todo lo que soy capaz de hacer. Me considero una persona inquieta intelectualmente, y esto se refleja en los distintos y variados servicios que ofrezco.</p>
             </div>
-            <div class="services-list">
+            <div class="services-list column">
                 <div class="services-card">
                     <img src="/img/servicios/118-macbook.svg" alt="img-servicios1">
                     <h5 class="card-title text-uppercase">Corrección</h5>
@@ -127,11 +130,11 @@
         <!-- End Services Area -->
 
         <!-- Proyect Area -->
-        <section class="project-area">
-            <div>
+        <section class="project-area row small-12 medium-6 large-3">
+            <div class="column">
                 <h1 class="title-text text-uppercase">Proyectos más recientes</h1>
             </div>
-            <div class="button-group"> <!-- Los botones filtran según las clases de los proyectos -->
+            <div class="button-group column"> <!-- Los botones filtran según las clases de los proyectos -->
                 <button type="button" class="active" id="btn1">Todo</button>
                 <button type="button" data-filter=".correcciones">Correcciones</button>
                 <button type="button" data.filter=".desarrollo">Desarrollo</button>
@@ -183,14 +186,14 @@
 
 
     <!-- Footer Area -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="social">
+    <footer class="footer-area clearfix">
+        <div class="row small-12 medium-6 large-3">
+            <div class="social column">
                 <h5 class="text-uppercase">Sígueme</h5>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
-            <div class="copyrights text-center">
+            <div class="copyrights text-center column">
                 <p class="para">
                   Copyright @2021 All rights reserved | This template is made with by
                   <a href="#"><span style="color: var(--primary-color)">Cristian Sánchez</span></a>
