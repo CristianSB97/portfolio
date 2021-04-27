@@ -3,4 +3,17 @@
         width: 50%;
     }
     
+    nav button{
+        display: none;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav li{
+        float: left;
+        width: 25%;
+    }
+    
 }
