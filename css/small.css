@@ -1,37 +1,13 @@
-html{
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
+@import url(/css/partials/globals.css);
 
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-
-.row{
-    clear: both;
-}
-
-.column{
-    float: left;
-}
-
-.clear-fix:after{ /* Para aplicar al footer, mainsite, nav, etc. */
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.limited{
-    max-width: 735px;
-    margin: auto;
-}
+@import url(/css/fonts.css);
 
 .small-12{
     width: 100%;
+}
+
+.small-6{
+    width: 50%;
 }
 
 /* button */
@@ -47,7 +23,7 @@ button#hamburgerBtn{
 /* Nav Styles */
 
 nav{
-    background-color: gray;
+    background-color: var(--primary-color);
 }
 nav ul{
     margin: 0;
@@ -85,10 +61,67 @@ nav ul{
 
 /* Banner Area Styles */
 .banner-area{
-    background: url(/img/banner/willian-justen-de-vasconcellos-_MMP5j_fCqw-unsplash.jpg);
+    background: url(/img/banner/1920x1080.png) no-repeat;
     background-size: cover;
+    min-height: 550px;
 }
 
-@media only screen and (min-width: 600px) {
+main .banner-area .column{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+main .banner-area .column h3{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+main .banner-area .column h4{
+    color: var(--secondary-color);
+    font-size: .8rem;
+    font-weight: 400;
+}
+/* End Banner Area Styles*/
+
+
+/* About Me Area Styles */
+
+main .about-me-area{
+    
+    padding-top: 2rem;
+}
+
+
+
+main .about-me-area .column img{
+    width: 70%;
+    padding-top: 8rem;
+    padding-left: .5rem;
     
 }
+
+main .about-me-area .column h1{
+    letter-spacing: .8rem;
+}
+
+/* End About Me Area Styles */
+
+/* Services Area */
+
+
+main .services-area section img{
+    width: 100%;
+}
+
+
+/* End Services Area */
+
+
+/* Project Area */
+
+main .project-area section img{
+    width: 100%;
+}
+/* End Project Area */
+

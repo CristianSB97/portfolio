@@ -1,14 +1,3 @@
-@import url(/css/fonts.css);
-
-
-html, body {
-    margin: 0%;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 :root{
     --header-color: #d6d3ca;

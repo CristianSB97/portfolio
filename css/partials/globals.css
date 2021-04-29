@@ -1,39 +1,47 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
-
-
-
-a{
-    text-decoration: none;
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font: normal 100 18px var(--montserrat);
 }
 
 .title-text{
-    font: normal 400 2.8rem/.8rem var(--montserrat);
+    font-weight: 400;
     color: var(--primary-color);
-    text-align: center;
-}
-
-.about-title{
-    font: normal bold 2.8rem/.8rem var(--montserrat);
-    color: var(--primary-color);
-    letter-spacing: 1rem;
-}
-
-p.para{
-    font: normal 200 1rem/1.8rem var(--montserrat);
+      
 }
 
 .text-uppercase{
     text-transform: uppercase;
 }
 
-
-/* Button Styles */
-
-.btn{
-    border-radius: 4px;
-    padding: .8rem 2.2rem;
-    font: normal 500 1rem/1rem var(--montserrat);
-    color: whitesmoke;
-    background: var(--gradient-color);
-    position: relative;
+p.para{
+    font: normal 500 1rem/ 1rem;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.column{
+    float: left;
+}
+
+.clear-fix:after{ /* Para aplicar al footer, mainsite, nav, etc. */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.limited{
+    max-width: 1000px;
+    margin: auto;
+}
+
