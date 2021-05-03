@@ -1,7 +1,7 @@
 
 :root{
     --header-color: #d6d3ca;
-    --background-color: #fbfaf1;
+    --background-color: hsl(45, 13%, 82%);
     --primary-color: #12465b;
     --secondary-color: #d8574a;
     --gradient-color: linear-gradient(127deg, rgba(216,87,74,1) 0%, rgba(216,124,74,1) 100%);

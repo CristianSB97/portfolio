@@ -8,6 +8,9 @@
 
     <!-- Fuentes de Google Font -->
     
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/partials/variables.css">
    <link rel="stylesheet" href="css/normalize.css">
@@ -24,23 +27,23 @@
 
     <!-- =============== End Header Area ============== -->
     <nav class="clear-fix">
-        <section class="row limited">
+        <section class="row-2 limited">
             <button id="hamburgerBtn">&#9766;</button>
             <ul id="primaryNav">
                 <li class="active">
                     <a href="#">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Sobre mí</a>
+                    <a href="#about-me">Sobre mí</a>
                 </li>
                 <li>
-                    <a href="#">Servicios</a>
+                    <a href="#services-area">Servicios</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#project-area">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="#contact-area">Contacto</a>
                 </li>
             </ul>
         </section>
@@ -66,46 +69,49 @@
         <!-- End Banner Area -->
 
         <!-- About Me Area -->
-        <div class="about-me-area row clear-fix limited">
+        <div class="margin about-me-area row clear-fix limited">
             
-            <section class="column small-6 medium-6">
-                <h1 class="title-text text-uppercase">Conóceme</h1>
-                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, doloremque cupiditate! Itaque saepe accusamus voluptatibus, amet cumque deserunt officia autem!</p>
-                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis odio excepturi saepe accusamus magnam, fuga iure reiciendis at cum!</p>
+            <section class="column small-12">
+                <h1 id="about-me" class="title-text text-uppercase">Conóceme</h1>
+                <p class="para">Me dedico a la literatura y al proceso de crearla y darla al mundo, a los lectores. Como corrector, busco aportar mi granito de arena al sector editorial.</p>
+                <p class="para">También, mi sed de conocimiento y mi curiosidad me han llevado a aprender programación web. Trato de unir ambas disciplinas en mi trabajo. </p>
+                
+            </section>
+            <section class="btn-column column small-12">
                 <button class="btn text-uppercase">Descargar CV</button>
             </section>
-            <section class="column small-6 medium-6">
+            <!--<section class="column small-6 medium-6">
                 <img src="/img/about-me/Asset 79.svg" alt="about me image">
-            </section>
+            </section>-->
             
         </div>
 
         <!-- End About Me Area -->
 
         <!-- Services Area -->
-        <div class="services-area row clear-fix limited">
+        <div class="margin services-area row clear-fix limited">
             <section class="column small-12">
-                <h1 class="text-uppercase title-text">Servicios que ofrezco</h1>
+                <h1 id="services-area" class="text-uppercase title-text">Servicios que ofrezco</h1>
             </section>
-            <section class="column small-12 medium-6 large-3">
+            <section class="card-area column small-12 medium-6 large-3">
                 <img src="/img/servicios/118-macbook.svg" alt="img-servicios1">
                 <h5 class="card-title text-uppercase">Corrección</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, obcaecati.</p>
+                <p class="card-text">Corrección ortotipográfica y de estilo. Atención por el detalle para sacar lo mejor de cada texto.</p>
             </section>
-            <section class="column small-12 medium-6 large-3">
+            <section class="card-area column small-12 medium-6 large-3">
                 <img src="/img/servicios/day69-dotted-notebook.svg" alt="img-servicios1">
                 <h5 class="card-title text-uppercase">Informes de lectura</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, obcaecati.</p>
+                <p class="card-text">Análisis en profundidad de cada obra, desde la forma al contenido. Valoro su idoneidad para seguir a la edición.</p>
             </section>
-            <section class="column small-12 medium-6 large-3">
+            <section class="card-area column small-12 medium-6 large-3">
                 <img src="/img/servicios/day73-writing-tool (1).svg" alt="img-servicios1">
                 <h5 class="card-title text-uppercase">Redacción</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, obcaecati.</p>
+                <p class="card-text">Artículos, reportajes o noticias. Tú pones el tema y yo me documento y creo el contenido.</p>
             </section>
-            <section class="column small-12 medium-6 large-3">
+            <section class="card-area column small-12 medium-6 large-3">
                 <img src="/img/servicios//day93-programing.svg" alt="img-servicios1">
                 <h5 class="card-title text-uppercase">Desarrollo web</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, obcaecati.</p>
+                <p class="card-text">Creo páginas web a petición: HTML5, CSS3 y, cada vez más, Javascript.</p>
             </section>
         </div>
 
@@ -114,36 +120,55 @@
         <!-- End Services Area -->
 
         <!-- Project Area -->
-        <div class="project-area row clear-fix limited">
+        <div class="margin project-area row clear-fix limited">
             <section class="column small-12">
-                <h1 class="text-uppercase title-text">
+                <h1 id="project-area" class="text-uppercase title-text">
                     Mis proyectos
                 </h1>
             </section>
-            <section class="column small-6 medium-6 large-3">
-                <h3 class="text-uppercase">Maldita tú eres</h3>
+            <section class="project column small-12 medium-6 large-3">
+                
                 <img src="img/project/Eww9TyNWUAIY40i.jpg" alt="maldita tú eres">
-                <p class="secondary-text"></p>
+                
+                <p class="secondary-text">Corrección</p>
             </section>
-            <section class="column small-6 medium-6 large-3">
-                <h3 class="text-uppercase">Iris de PaZ</h3>
+            <section class="project column small-12 medium-6 large-3">
+                
                 <img src="img/EttGS-TXMAEXx_l.jpg" alt="iris de paz">
-                <p class="secondary-text"></p>
+                
+                <p class="secondary-text">Corrección</p>
             </section>
-            <section class="column small-6 medium-6 large-3">
-                <h3 class="text-uppercase">Noches lúgubres</h3>
+            <section class="project column small-12 medium-6 large-3">
+                
                 <img src="img/project/Cubierta Noches Lúgubres-frontal.jpg" alt="noches lúgubres">
-                <p class="secondary-text"></p>
+                
+                <p class="secondary-text">Maquetación</p>
             </section>
-            <section class="column small-6 medium-6 large-3">
-                <h3 class="text-uppercase">Lo inesperado</h3>
+            <section class="project column small-12 medium-6 large-3">
+                
                 <img src="img/project/Cubierta-frontal-Lo-inesperado.jpg" alt="lo inesperado">
-                <p class="secondary-text"></p>
+                
+                <p class="secondary-text">Maquetación</p>
             </section>
             
         </div>
 
         <!-- End Project Area -->
+
+        <!-- Contact Area -->
+        <div class="contact-area clear-fix row limited">
+            <section class="column small-12">
+                <h1 id="contact-area" class="title-text text-uppercase">Contacta conmigo</h1>
+            </section>
+            <section class="input-place column small-12">
+                <input type="text" id="txtmail" class="form-control" placeholder="Email">
+                <div class="btn-submit">
+                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                </div>
+            </section>
+            
+        </div>
+        <!-- End Contact Area -->
 
 
 
