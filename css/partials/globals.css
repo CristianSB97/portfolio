@@ -10,6 +10,10 @@ html{
     font: normal 100 18px var(--montserrat);
 }
 
+a{
+    text-decoration: none;
+}
+
 .title-text{
     font-size: 1.6rem;
     font-weight: 400;
@@ -49,11 +53,22 @@ html{
     content: "";
     display: table;
     clear: both;
+    
 }
 
 .limited{
     max-width: 1000px;
     margin: auto;
+}
+
+
+.fixed-nav{
+    position: fixed;
+    min-height: auto;
+    width: 360px;
+    text-align: center;
+    word-wrap: break-word;
+    z-index: 100;
 }
 
 

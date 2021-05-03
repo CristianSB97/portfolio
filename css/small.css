@@ -24,6 +24,8 @@ button#hamburgerBtn{
 
 nav{
     background-color: var(--primary-color);
+    
+    
 }
 nav ul{
     margin: 0;
@@ -176,6 +178,10 @@ main .project-area section p{
 /* End Project Area */
 
 /* Contact Area */
+main .contact-area {
+    background-color: var(--background-color);
+}
+
 main .contact-area section h1{
     padding-left: .3rem;
 }
@@ -187,10 +193,31 @@ main .contact-area .input-place{
 main .contact-area .input-place .btn-submit{
     padding-top: .5rem;
 }
+
+
+
+
 /* Footer Area */
+
+footer{
+    padding-top: 4rem;
+}
+
 footer .row{
     background-color: var(--primary-color);
     text-align: center;
+}
+
+footer .row a{
+    color: grey;
+}
+
+footer .row .copyrights p{
+    text-align: center;
+}
+
+footer .row .social a{
+    padding: .1rem;
 }
 
 /* End Footer Area */
