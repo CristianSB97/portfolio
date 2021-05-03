@@ -24,6 +24,8 @@ button#hamburgerBtn{
 
 nav{
     background-color: var(--primary-color);
+    
+    
 }
 nav ul{
     margin: 0;
@@ -61,7 +63,7 @@ nav ul{
 
 /* Banner Area Styles */
 .banner-area{
-    background: url(/img/banner/1920x1080.png) no-repeat;
+    background: url(../img/banner/1920x1080.png) no-repeat;
     background-size: cover;
     min-height: 550px;
 }
@@ -89,7 +91,8 @@ main .banner-area .column h4{
 
 main .about-me-area{
     
-    padding-top: 2rem;
+    padding-top: 1rem;
+    
 }
 
 
@@ -101,27 +104,123 @@ main .about-me-area .column img{
     
 }
 
-main .about-me-area .column h1{
-    letter-spacing: .8rem;
+main .about-me-area .column h1, p{
+    padding-left: .3rem;
+}
+
+main .about-me-area .column p{
+    padding-right: .3rem;
+}
+
+main .about-me-area .btn-column{
+    padding-top: .5rem;
 }
 
 /* End About Me Area Styles */
 
 /* Services Area */
 
+main .services-area{
+    padding-top: 3rem;
+}
+main .services-area section h1{
+    padding-left: .3rem;
+}
+
 
 main .services-area section img{
     width: 100%;
 }
 
+main .services-area section .card-title{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+main .services-area section .card-text{
+    padding-bottom: .9rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+main .services-area .card-area{
+    background-color: var(--background-color);
+}
 
 /* End Services Area */
 
 
 /* Project Area */
 
+main .project-area{
+    padding-top: 2rem;
+    
+}
+
+main .project-area section h1{
+    padding-left: .3rem;
+}
+
+main .project-area .project{
+    text-align: center;
+    
+    
+}
+
 main .project-area section img{
-    width: 100%;
+    width: 80%;
+}
+
+main .project-area section p{
+    text-align: left;
+    padding-left: 1.94rem;
 }
 /* End Project Area */
+
+/* Contact Area */
+main .contact-area {
+    background-color: var(--background-color);
+}
+
+main .contact-area section h1{
+    padding-left: .3rem;
+}
+
+main .contact-area .input-place{
+    text-align: center;
+}
+
+main .contact-area .input-place .btn-submit{
+    padding-top: .5rem;
+}
+
+
+
+
+/* Footer Area */
+
+footer{
+    padding-top: 4rem;
+}
+
+footer .row{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer .row a{
+    color: grey;
+}
+
+footer .row .copyrights p{
+    text-align: center;
+}
+
+footer .row .social a{
+    padding: .1rem;
+}
+
+/* End Footer Area */
+
+
 

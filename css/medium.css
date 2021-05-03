@@ -15,5 +15,66 @@
         float: left;
         width: 25%;
     }
+
+    /* Banner Area */
+
+    main .banner-area .column h3{
+        font-size: 2rem;
+    }
+
+    main .banner-area .column h4{
+        
+        font-size: 1rem;
+        
+    }
+    /* End Banner Area */
+
+    /* About Me Area */
+    main .about-me-area .column h1, p{
+        text-align: left;
+    }
+
+    main .about-me-area .column h1{
+        font-size: 2rem;
+        letter-spacing: .3rem;
+    }
+
+    main .about-me-area .btn-column{
+        text-align: center;
+        padding-top: 1rem;
+    }
     
+
+    /* End About Me Area */
+
+    /* Services Area*/
+    
+    
+
+    /* End project Area*/
+    main .project-area{
+        padding-top: 4rem;
+    }
+
+
+    /* End project Area*/
+
+
+    /* Contact Area*/
+    main .contact-area{
+        padding-top: 3rem;
+    }
+
+
+
+
+    /* End Contact Area*/
+    
+
+
+    /* Globals Changes*/
+
+    .title-text{
+        font-size: 2rem;
+    }
 }
