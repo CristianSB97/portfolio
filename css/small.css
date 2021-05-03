@@ -63,7 +63,7 @@ nav ul{
 
 /* Banner Area Styles */
 .banner-area{
-    background: url(/img/banner/1920x1080.png) no-repeat;
+    background: url(../img/banner/1920x1080.png) no-repeat;
     background-size: cover;
     min-height: 550px;
 }
