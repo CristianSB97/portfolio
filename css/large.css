@@ -3,15 +3,30 @@
         width: 25%;
     }
 
-    nav ul{
-        margin-left: 2vw;
-    }
-
-    nav li{
+    .item {
+        display: block;
         width: auto;
-    }
+      }
+      .toggle {
+        display: none;
+      }
+      .logo {
+        order: 0;
+      }
+      .item {
+        order: 1;
+      }
+      .button {
+        order: 2;
+      }
+      .menu li {
+        padding: 15px 10px;
+      }
+      .menu li.button {
+        padding-right: 0;
+      }
     
-    nav a{
-        padding: .7rem 1rem;
-    }
+    main .banner-area .column h3{
+      font-size: 3.5rem;
+    }  
 }

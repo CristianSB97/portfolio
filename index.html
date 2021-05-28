@@ -23,33 +23,25 @@
 </head>
 <body>
     <!-- =============== Header Area ============== -->
-    <header>
-
-    </header>
+    
+    
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="#">Cristian Sánchez</a></li>
+          <li class="item"><a href="#">Inicio</a></li>
+          <li class="item"><a href="#">Sobre mí</a></li>
+          <li class="item"><a href="#">Servicios</a></li>
+          <li class="item"><a href="#">Portfolio</a></li>
+          <li class="item"><a href="#">Contacto</a></li>
+          <li id="toggle" class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    
 
     <!-- =============== End Header Area ============== -->
-    <nav id="navbar" class="clear-fix">
-        <section class="row-2 limited">
-            <button id="hamburgerBtn"><i class="fas fa-bars"></i></button>
-            <ul id="primaryNav">
-                <li class="active">
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="#about-me">Sobre mí</a>
-                </li>
-                <li>
-                    <a href="#services-area">Servicios</a>
-                </li>
-                <li>
-                    <a href="#project-area">Portfolio</a>
-                </li>
-                
-            </ul>
-        </section>
-        
-
-    </nav>
+    
+    
+    
 
     <!-- =============== Nav Area ===================== -->
 
@@ -62,17 +54,34 @@
         <!-- Banner Area -->
         <div class="banner-area row clear-fix">
             <section class="column small-12">
-                <h3 class="text-uppercase">Cristian Sánchez</h3>
-                <h4>corrector | lector editorial | desarrollador frontend</h4>
+                <h3>CRISTIAN SÁNCHEZ</h3>
+                <h4>Servicios editoriales</h4>
+                <button class="btn" type="button">Contactar</button>
             </section>
+            
+                
+                
+            
+            
         </div>
         <!-- End Banner Area -->
+
+        <!-- Colab Area -->
+        <div class="colab-area row clear-fix">
+            <section class="limited column small-12">
+                <h2>Colaboro con:</h2>
+                <img src="img/colab/logo-pabilo.png" alt="pábilo-logo">
+            </section>
+        </div>
+
+
+        <!-- End Colab Area -->
 
         <!-- About Me Area -->
         <div class="margin about-me-area row clear-fix limited">
             
             <section class="column small-12">
-                <h1 id="about-me" class="title-text text-uppercase">Conóceme</h1>
+                <h1 id="about-me" class="title-text">Conóceme</h1>
                 <p class="para">Me dedico a la literatura y al proceso de crearla y darla al mundo, a los lectores. Como corrector, busco aportar mi granito de arena al sector editorial.</p>
                 <p class="para">También, mi sed de conocimiento y mi curiosidad me han llevado a aprender programación web. Trato de unir ambas disciplinas en mi trabajo. </p>
                 
@@ -89,30 +98,33 @@
         <!-- End About Me Area -->
 
         <!-- Services Area -->
-        <div class="margin services-area row clear-fix limited">
+        <div class="services-area row clear-fix limited">
             <section class="column small-12">
-                <h1 id="services-area" class="text-uppercase title-text">Servicios que ofrezco</h1>
+                <h1 id="services-area" class=" title-text">
+                    Servicios que ofrezco
+                </h1>
             </section>
-            <section class="card-area column small-12 medium-6 large-3">
-                <img src="img/servicios/118-macbook.svg" alt="img-servicios1">
-                <h5 class="card-title text-uppercase">Corrección</h5>
-                <p class="card-text">Corrección ortotipográfica y de estilo. Atención por el detalle para sacar lo mejor de cada texto.</p>
+            <section class="column small-12 medium-6 large-3">
+                <i class="fas fa-spell-check"></i>
+                <h3>Corrección</h3>
+                <p class="para">Termino de pulir tu obra hasta el más mínimo detalle.</p>
             </section>
-            <section class="card-area column small-12 medium-6 large-3">
-                <img src="img/servicios/day69-dotted-notebook.svg" alt="img-servicios1">
-                <h5 class="card-title text-uppercase">Informes de lectura</h5>
-                <p class="card-text">Análisis en profundidad de cada obra, desde la forma al contenido. Valoro su idoneidad para seguir a la edición.</p>
+            <section class="column small-12 medium-6 large-3">
+                <i class="fas fa-book-open"></i>
+                <h3>Informes de lectura</h3>
+                <p class="para">Leo y analizo tu obra para valor su calidad y aportar mi experiencia como lector crítico.</p>
             </section>
-            <section class="card-area column small-12 medium-6 large-3">
-                <img src="img/servicios/day73-writing-tool (1).svg" alt="img-servicios1">
-                <h5 class="card-title text-uppercase">Redacción</h5>
-                <p class="card-text">Artículos, reportajes o noticias. Tú pones el tema y yo me documento y creo el contenido.</p>
+            <section class="column small-12 medium-6 large-3">
+                <i class="fas fa-book-reader"></i>
+                <h3>Maquetación digital</h3>
+                <p class="para">Programo libros personalizados en .epub nativo.</p>
             </section>
-            <section class="card-area column small-12 medium-6 large-3">
-                <img src="img/servicios//day93-programing.svg" alt="img-servicios1">
-                <h5 class="card-title text-uppercase">Desarrollo web</h5>
-                <p class="card-text">Creo páginas web a petición: HTML5, CSS3 y, cada vez más, Javascript.</p>
+            <section class="column small-12 medium-6 large-3">
+                <i class="fas fa-user-edit"></i>
+                <h3>Redacción</h3>
+                <p class="para">Todo tipo de textos: periodísticos o comerciales.</p>
             </section>
+            
         </div>
 
 
@@ -122,29 +134,29 @@
         <!-- Project Area -->
         <div class="margin project-area row clear-fix limited">
             <section class="column small-12">
-                <h1 id="project-area" class="text-uppercase title-text">
-                    Mis proyectos
+                <h1 id="project-area" class="title-text">
+                    Proyectos
                 </h1>
             </section>
-            <section class="project column small-12 medium-6 large-3">
+            <section class="project column small-6 medium-6 large-3">
                 
                 <img src="img/project/Eww9TyNWUAIY40i.jpg" alt="maldita tú eres">
                 
                 <p class="secondary-text">Corrección</p>
             </section>
-            <section class="project column small-12 medium-6 large-3">
+            <section class="project column small-6 medium-6 large-3">
                 
                 <img src="img/EttGS-TXMAEXx_l.jpg" alt="iris de paz">
                 
                 <p class="secondary-text">Corrección</p>
             </section>
-            <section class="project column small-12 medium-6 large-3">
+            <section class="project column small-6 medium-6 large-3">
                 
                 <img src="img/project/Cubierta-Noches-Lúgubres-frontal.jpg" alt="noches lúgubres">
                 
                 <p class="secondary-text">Maquetación</p>
             </section>
-            <section class="project column small-12 medium-6 large-3">
+            <section class="project column small-6 medium-6 large-3">
                 
                 <img src="img/project/Cubierta-frontal-Lo-inesperado.jpg" alt="lo inesperado">
                 
@@ -240,10 +252,12 @@
 
 
 
+     <!--JQuery js file -->
+   <script src="js/jquery.3.6.0.js"></script>
+    
     <script src="js/menuToggle.js"></script>
 
-    <!--JQuery js file -->
-   <script src="js/jquery.3.6.0.js"></script>
+   
 
    <!-- Custom js file -->
    <script src="js/main.js"></script>

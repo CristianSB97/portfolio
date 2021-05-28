@@ -20,77 +20,131 @@ button#hamburgerBtn{
     padding: 0 30px 0 2vw;
 }
 
-/* Nav Styles */
-
-nav{
+/* Header Styles*/
+header{
     background-color: var(--primary-color);
     
+}
+
+.img-logo{
     
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-
-nav li{
-    list-style-type: none;
-}
-nav a{
     display: block;
-    padding: .8rem 0;
-    color: #eee;
     text-align: center;
+}
+/* End Header Styles*/
+
+
+
+/* Nav Styles */
+
+nav {
+    background: var(--primary-color);
+    padding: 5px 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    color: white;
     text-decoration: none;
-}
-
-nav li.active{
-    background-color: rgba(0,0,0,0.5);
-}
-
-nav a:hover{
-    background-color: rgba(0,0,0,0.2);
-}
-
-nav ul.open{
-    display: block;
-}
-
-nav ul{
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .logo a:hover {
+    text-decoration: none;
+  }
+  .menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+  }
+  .logo a,
+  .toggle a {
+    font-size: 20px;
+  }
+  .button.secondary {
+    border-bottom: 1px #444 solid;
+  }
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .toggle {
+    order: 1;
+  }
+  .item.button {
+    order: 2;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+    order: 3;
     display: none;
-}
+  }
+  .item.active {
+    display: block;
+  }
+ 
+
 
 
 
 /* Banner Area Styles */
 .banner-area{
-    background: url(../img/banner/1920x1080.png) no-repeat;
+    background: url(../img/banner/sincerely-media-bUxF1M7N4e0-unsplash.jpg) no-repeat;
     background-size: cover;
     min-height: 550px;
 }
 
 main .banner-area .column{
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 main .banner-area .column h3{
     color: var(--primary-color);
-    font-size: 1.6rem;
-    font-weight: bold;
+    font: normal bold 3rem/0  var(--miso);
+    letter-spacing: .1rem;
+    
+    
 }
 
 main .banner-area .column h4{
     color: var(--secondary-color);
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 400;
 }
+
+
 /* End Banner Area Styles*/
+
+/* Colab Area Styles */
+main .colab-area{
+    background-color: var(--secondary-color2);
+    padding-bottom: 4rem;
+}
+
+main .colab-area img{
+    display: block;
+    margin: auto;
+}
+
+main .colab-area h2{
+    padding-left: .5rem;
+}
+
+
+/* End Colab Area Styles */
 
 
 /* About Me Area Styles */
 
 main .about-me-area{
-    
+    text-align: center;
     padding-top: 1rem;
     
 }
@@ -122,29 +176,25 @@ main .about-me-area .btn-column{
 
 main .services-area{
     padding-top: 3rem;
-}
-main .services-area section h1{
-    padding-left: .3rem;
-}
-
-
-main .services-area section img{
-    width: 100%;
-}
-
-main .services-area section .card-title{
     text-align: center;
-    color: var(--primary-color);
+    justify-content: space-around;
 }
 
-main .services-area section .card-text{
-    padding-bottom: .9rem;
-    font-size: .8rem;
-    text-align: center;
+main .services-area .column i{
+    font-size: 40px;
+    color: var(--secondary-color);
 }
 
-main .services-area .card-area{
-    background-color: var(--background-color);
+main .services-area .column h1{
+    padding-bottom: 1rem;
+}
+
+main .services-area .column h3{
+    margin-top: -.01rem;
+}
+
+main .services-area .column p{
+    padding-bottom: 1rem;
 }
 
 /* End Services Area */
@@ -154,6 +204,7 @@ main .services-area .card-area{
 
 main .project-area{
     padding-top: 2rem;
+    text-align: center;
     
 }
 
@@ -209,7 +260,7 @@ footer .row{
 }
 
 footer .row a{
-    color: grey;
+    color: #fff;
 }
 
 footer .row .copyrights p{

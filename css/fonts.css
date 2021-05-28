@@ -2,3 +2,13 @@
     font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
     src: url(/fonts/Montserrat-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Miso';
+    src: url(/fonts/miso-bold.otf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(/fonts/Cantarell-Regular.ttf); 
+}
