@@ -12,3 +12,8 @@
     font-family: 'Cantarell';
     src: url(/fonts/Cantarell-Regular.ttf); 
 }
+
+@font-face {
+    font-family: 'Butler';
+    src: url(/fonts/butler_black-webfont.woff);
+}

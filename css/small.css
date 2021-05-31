@@ -107,8 +107,8 @@ main .banner-area .column{
 
 main .banner-area .column h3{
     color: var(--primary-color);
-    font: normal bold 3rem/0  var(--miso);
-    letter-spacing: .1rem;
+    font: normal bold 2rem/0  var(--butler);
+    
     
     
 }
