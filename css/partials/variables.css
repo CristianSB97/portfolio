@@ -2,10 +2,10 @@
 :root{
     --nav-color: #f7f6ee;
     --background-color: hsl(45, 13%, 82%);
-    --primary-color: #1b4f52;
-    --secondary-color: #935d30;
-    --secondary-color2: #a1a9b0;
-    --gradient-color: linear-gradient(127deg, rgba(17,32,77,1) 0%, rgba(8,129,144,1) 100%);
+    --primary-color: #334a5c;
+    --secondary-color: #2e8aa7;
+    --secondary-color2: #e8e7d2;
+    --gradient-color: linear-gradient(127deg, rgba(51,74,92,1) 0%, rgba(8,129,144,1) 100%);
     --roboto-slab: 'Roboto Slab', serif;
     --montserrat: 'Montserrat', sans-serif;
 
